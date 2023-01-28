@@ -3,6 +3,7 @@ import FlexBetween from "./FlexBetween";
 
 const StatBox = ({ title, value, increase, icon, description }) => {
   const theme = useTheme();
+
   return (
     <Box
       gridColumn="span 2"
